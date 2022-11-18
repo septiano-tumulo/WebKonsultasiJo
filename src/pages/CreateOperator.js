@@ -69,7 +69,7 @@ const CreateOperator = () => {
                         <label>Perdata</label>
                       </div>
                       <div>
-                        <input type="radio" name="handle" value="perdana" required/>
+                        <input type="radio" name="handle" value="pidana" required/>
                         <label>Pidana</label>
                       </div>
                     </div>
