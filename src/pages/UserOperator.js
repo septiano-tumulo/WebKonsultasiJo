@@ -59,8 +59,7 @@ const UserOperator = () => {
                         <thead>
                           <tr>
                           <th scope="col">Nama Pengguna</th>
-                          <th scope="col">FullName</th>
-                          <th scope="col">Email</th>
+                          <th scope="col">Hapus</th>                          
                           <th scope="col"></th>
                           </tr>
                         </thead>

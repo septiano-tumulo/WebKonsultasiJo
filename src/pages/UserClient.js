@@ -65,7 +65,7 @@ const UserClient = () => {
                     </ul>
                 </div>
 
-                <Link className="nav-link text-white mb-3" to="/createClient"><p className="cAkun"><img src={ImgCreateAccount} alt="CreateAccount" /> Buat Akun</p></Link>
+                {/* <Link className="nav-link text-white mb-3" to="/createClient"><p className="cAkun"><img src={ImgCreateAccount} alt="CreateAccount" /> Buat Akun</p></Link> */}
                   <div class="input-group flex-nowrap mb-2">
                     <input type="text" class="form-control" placeholder="Cari berdasarkan ID, NIK, Nama, Alamat Email" value={search} onChange={(e)=>setSearch(e.target.value)}/>
                   </div>
@@ -75,7 +75,7 @@ const UserClient = () => {
                             <th scope="col">NIK</th>
                             <th scope="col">FullName</th>
                             <th scope="col">Email</th>
-                            <th scope="col">Action</th>
+                            <th scope="col">Hapus</th>
                           </tr>
                         </thead>
                         <tbody>
